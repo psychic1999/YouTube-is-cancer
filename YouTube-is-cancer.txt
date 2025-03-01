@@ -1,7 +1,7 @@
 ! Title: YouTube is cancer
 ! Version: 1.15.1
 ! Expires: 1 day
-! Homepage: https://github.com/psychic1999/Unnamed
+! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
 !!!! General websites 
 
