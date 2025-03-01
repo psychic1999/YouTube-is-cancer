@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.15.1
+! Version: 1.16.0
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -16,34 +16,6 @@ www.crunchyroll.com##.upsell-banner-container
 
 !!! disqus
 ||disqus.com/embed/comments/^$all
-
-!!! fandom
-!! Hide yellow sidebar
-fandom.com##.global-navigation
-fandom.com##.main-container:style(width: 100% !important; margin-left: auto !important; margin-right: auto !important;)
-fandom.com##.fandom-community-header__background:style(width: 100% !important)
-fandom.com##.fandom-sticky-header:style(left: 0 !important;)
-fandom.com##.search-modal::before:style(left: 0 !important;)
-fandom.com##body:style(border-left: none !important;)
-!! Hide notification popups at the bottom of the page
-fandom.com##.notifications-placeholder
-!! Hide the blue "Wikia" bar at the bottom-right corner, which starts with "Check out Fandom..."
-fandom.com###WikiaBar
-!! Hide the global footer at the bottom of every page
-fandom.com##.global-footer
-!! Hide the section "fan feed" at the bottom of the page
-fandom.com###mixed-content-footer
-!! Hide the rights sidebar, which contains "popular pages" and "others like you also viewed" sections
-fandom.com##.page__right-rail
-!! Hides the "explore" tab in the menu
-fandom.com##.explore-menu.wds-dropdown
-!! Hides tooltip that pops up when you try to highlight text
-fandom.com##.highlight__sticky-container
-!! Hides "Top Trending Searches" when you open search
-fandom.com##.search-seeding
-!! Hide edit buttons at the top-left of every page/article
-fandom.com##.page-side-tool.page-side-edit
-fandom.com##.mw-editsection
 
 !!! github
 !! Hide the changelog and announcements from the homepage
