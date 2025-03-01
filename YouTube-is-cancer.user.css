@@ -2,6 +2,7 @@
 @name   YouTube is cancer
 @namespace youtube
 @version 2.18.0
+@author  psychic1999
 
 @advanced dropdown bgchanger "Background Image" {
     1 "Bing daily*" <<<EOT https://bing.biturl.top/?resolution=UHD&format=image&index=0&mkt=en-US EOT;
