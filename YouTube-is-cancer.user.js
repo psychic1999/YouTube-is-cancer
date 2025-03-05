@@ -5,7 +5,9 @@
 // @grant       none
 // @version     2.18.1
 // @author      psychic1999
-// @description 3/5/2025, 5:46:34 PM
+// @description YouTube is cancer
+// @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
+// @updateURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
 // ==/UserScript==
 (function() {
 let css = `
