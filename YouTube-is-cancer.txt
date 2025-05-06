@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.16.6
+! Version: 1.16.7
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -127,11 +127,6 @@ www.pornhub.com##.emailVerHomepageContainer
 !!! reddit
 !! recent posts
 www.reddit.com##recent-posts
-!! preview
-! desktop
-www.reddit.com##.preview-img
-! mobile
-www.reddit.com##.object-cover
 !! recent subreddits
 www.reddit.com##reddit-recent-pages
 !! related posts
