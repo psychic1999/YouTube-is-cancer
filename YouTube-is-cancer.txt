@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.16.7
+! Version: 1.16.8
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -20,6 +20,7 @@ www.crunchyroll.com##.upsell-banner-container
 
 !!! fandom
 fandom.com##.page__right-rail
+fandom.com##.global-explore-navigation__recently-visited
 
 !!! github
 !! Hide the changelog and announcements from the homepage
