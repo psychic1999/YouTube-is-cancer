@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.16.8
+! Version: 1.16.9
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -244,7 +244,7 @@ m.youtube.com##ytm-shelf-renderer:has(ytm-compact-channel-renderer)
 !!! comments
 !! comment section
 www.youtube.com##ytd-comments
-m.youtube.com##ytm-item-section-renderer[section-identifier="comments-entry-point"]
+m.youtube.com##ytm-watch ytm-item-section-renderer:has([aria-label="Comments"])
 !! chat
 www.youtube.com###chat-container
 www.youtube.com###teaser-carousel
