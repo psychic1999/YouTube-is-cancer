@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.16.10
+! Version: 1.16.11
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -148,7 +148,7 @@ open.spotify.com##[data-testid="upgrade-button"]
 ! Install App
 open.spotify.com##a[href="/download"]
 open.spotify.com##a[href="https://spotify.com/download"]
-! Friend Activity
+open.spotify.com##button[aria-label="Download"]
 open.spotify.com##button[data-testid="friend-activity-button" ]
 !! Recently played
 open.spotify.com##section[aria-label="Recently played"]
