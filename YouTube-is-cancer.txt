@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.17.0
+! Version: 1.17.1
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -78,17 +78,14 @@ letterboxd.com##section:has(>[href="/lists/popular/this/week/"])
 letterboxd.com##section:has(>[href="/showdown/"])
 !! moviepage
 ! RECENT REVIEWS
-letterboxd.com###recent-reviews
 letterboxd.com##.film-recent-reviews
 ! WHERE TO WATCH
 letterboxd.com##.watch-panel
 ! POPULAR LISTS
-letterboxd.com###film-popular-lists
 letterboxd.com##.related-lists
 ! RATINGS
 letterboxd.com##.ratings-histogram-chart
 ! film stats
-letterboxd.com##.film-stats
 letterboxd.com##.production-statistic-list
 !! FILMS tab
 ! JUST REVIEWED…
