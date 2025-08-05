@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.17.4
+! Version: 1.17.5
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -341,6 +341,9 @@ m.youtube.com##.pivot-bar-fallback-item.w2w
 www.youtube.com##ytd-guide-entry-renderer:has(>a[title="Shorts"])
 www.youtube.com##ytd-mini-guide-entry-renderer[aria-label="Shorts"]
 m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts,>.shorts)
+!! downloads
+www.youtube.com##ytd-guide-downloads-entry-renderer
+www.youtube.com##ytd-mini-guide-entry-renderer[aria-label="Downloads"]
 !! explore
 www.youtube.com##ytd-guide-section-renderer:has(a[href^="/feed/trending"])
 !! more from youtube
