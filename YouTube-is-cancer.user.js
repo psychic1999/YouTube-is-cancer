@@ -3,7 +3,7 @@
 // @namespace   youtube
 // @match       *://*.youtube.com/*
 // @grant       none
-// @version     2.18.3
+// @version     2.18.4
 // @author      psychic1999
 // @description YouTube is cancer
 // @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
@@ -82,7 +82,7 @@ html:has(ytm-watch,ytm-settings,ytm-search,ytm-browse):not(:has(div[tab-identifi
     background-blend-mode:overlay!important;
 }
 ytm-feed-filter-chip-bar-renderer.frosted-glass{
-    backdrop-filter: none;
+    backdrop-filter: none!important;
 }
 /*LOGO*/
 /*desktop*/
