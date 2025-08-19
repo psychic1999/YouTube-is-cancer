@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name   YouTube is cancer
 @namespace youtube
-@version 2.18.7
+@version 2.18.8
 @author  psychic1999
 
 @advanced dropdown bgchanger "Background Image" {
@@ -44,7 +44,7 @@ ytm-channel-list-sub-menu-renderer{
 /*SCREEN DESKTOP*/
 html[dark]{
 ytd-masthead,
-#background.ytd-masthead,
+ytd-masthead[frosted-glass-mode=without-chipbar] #background.ytd-masthead,
 #contentContainer.tp-yt-app-drawer,
 #guide-content.ytd-app,
 ytd-mini-guide-renderer,
