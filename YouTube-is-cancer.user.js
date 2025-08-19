@@ -3,7 +3,7 @@
 // @namespace   youtube
 // @match       *://*.youtube.com/*
 // @grant       none
-// @version     2.18.6
+// @version     2.18.7
 // @author      psychic1999
 // @description YouTube is cancer
 // @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
@@ -38,6 +38,7 @@ ytm-channel-list-sub-menu-renderer{
 /*SCREEN DESKTOP*/
 html[dark]{
 ytd-masthead,
+#background.ytd-masthead,
 #contentContainer.tp-yt-app-drawer,
 #guide-content.ytd-app,
 ytd-mini-guide-renderer,
