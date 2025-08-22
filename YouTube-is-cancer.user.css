@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name   YouTube is cancer
 @namespace youtube
-@version 2.18.8
+@version 2.19.0
 @author  psychic1999
 
 @advanced dropdown bgchanger "Background Image" {
@@ -205,7 +205,7 @@ ytd-browse[page-subtype="subscriptions"] .ytd-video-meta-block{
     line-height: 1.8rem!important;
 }
 /*////////////// SHORTSTAB //////////////*/
-yt-tab-group-shape:has(yt-tab-shape[tab-title="Shorts"]):not(:has(yt-tab-shape:nth-of-type(1)[aria-selected="true"]),:has(yt-tab-shape:nth-of-type(2)[aria-selected="true"])) .yt-tab-group-shape-wiz__slider{
+yt-tab-group-shape:has(yt-tab-shape[tab-title="Shorts"]):not(:has(yt-tab-shape:nth-of-type(1)[aria-selected="true"]),:has(yt-tab-shape:nth-of-type(2)[aria-selected="true"])) .tabGroupShapeSlider{
     position:relative!important;
     right:24px!important;      
 }
