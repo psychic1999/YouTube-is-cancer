@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name   YouTube is cancer
 @namespace youtube
-@version 2.19.0
+@version 2.19.1
 @author  psychic1999
 
 @advanced dropdown bgchanger "Background Image" {
@@ -55,7 +55,8 @@ tp-yt-paper-dialog,
 #container.ytd-searchbox,
 .sbsb_a,    
 a.ytd-search-refinement-card-renderer,
-
+.ytSearchboxComponentInputBoxDark,
+    
 ytd-browse,
 tp-yt-app-toolbar.ytd-tabbed-page-header,
 .yt-contextual-sheet-layout-wiz,
@@ -66,6 +67,7 @@ ytd-watch-flexy,
 .playlist-items.ytd-playlist-panel-renderer,
 ytd-menu-popup-renderer,
 #header.ytd-engagement-panel-title-header-renderer,
+ytd-simple-menu-header-renderer,
 ytd-transcript-segment-list-renderer,
 ytd-transcript-search-panel-renderer,
 .watch-skeleton .skeleton-bg-color,
@@ -83,6 +85,7 @@ ytm-select,
 
 ytm-mobile-topbar-renderer,
 .ytSearchboxComponentSuggestionsContainer,
+.mobile-topbar-header[data-mode=searching],
 ytm-watch-card-rich-header-renderer{
     background-color: /*[[color_screen]]*/!important;
 }
