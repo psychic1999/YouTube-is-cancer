@@ -3,7 +3,7 @@
 // @namespace   youtube
 // @match       *://*.youtube.com/*
 // @grant       none
-// @version     2.19.0
+// @version     2.19.1
 // @author      psychic1999
 // @description YouTube is cancer
 // @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
@@ -49,6 +49,7 @@ tp-yt-paper-dialog,
 #container.ytd-searchbox,
 .sbsb_a,
 a.ytd-search-refinement-card-renderer,
+.ytSearchboxComponentInputBoxDark,
 
 ytd-browse,
 tp-yt-app-toolbar.ytd-tabbed-page-header,
@@ -60,6 +61,7 @@ ytd-watch-flexy,
 .playlist-items.ytd-playlist-panel-renderer,
 ytd-menu-popup-renderer,
 #header.ytd-engagement-panel-title-header-renderer,
+ytd-simple-menu-header-renderer,
 ytd-transcript-segment-list-renderer,
 ytd-transcript-search-panel-renderer,
 .watch-skeleton .skeleton-bg-color,
@@ -77,6 +79,7 @@ ytm-select,
 
 ytm-mobile-topbar-renderer,
 .ytSearchboxComponentSuggestionsContainer,
+.mobile-topbar-header[data-mode=searching],
 ytm-watch-card-rich-header-renderer{
     background-color: rgba(0, 0, 0, .4)!important;
 }
