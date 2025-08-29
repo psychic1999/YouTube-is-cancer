@@ -3,7 +3,7 @@
 // @namespace   youtube
 // @match       *://*.youtube.com/*
 // @grant       none
-// @version     2.19.1
+// @version     2.19.2
 // @author      psychic1999
 // @description YouTube is cancer
 // @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
@@ -241,12 +241,12 @@ ytd-browse[page-subtype="channels"] ytd-rich-item-renderer{
     --ytd-rich-grid-row-margin: 16px!important
 }
 /*////////////// HIDE TEXT ON PLAYER ACTION BUTTONS //////////////*/
-button-view-model:has([aria-label="Share"],[aria-label="Save to playlist"],[aria-label="Report"]) .yt-spec-button-shape-next__button-text-content,
+button-view-model:has([aria-label="Share"],[aria-label="Save to playlist"],[aria-label="Report"],[aria-label="Ask"]) .yt-spec-button-shape-next__button-text-content,
 button[aria-label="Create"] .yt-spec-button-shape-next__button-text-content{
     display:none
 }
 
-button-view-model:has([aria-label="Share"],[aria-label="Save to playlist"],[aria-label="Report"]) .yt-spec-button-shape-next__icon,
+button-view-model:has([aria-label="Share"],[aria-label="Save to playlist"],[aria-label="Report"],[aria-label="Ask"]) .yt-spec-button-shape-next__icon,
 button[aria-label="Create"] .yt-spec-button-shape-next__icon{
     margin-right: -9px!important;
     margin-left: -9px!important;
