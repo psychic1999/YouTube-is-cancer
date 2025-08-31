@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.17.8
+! Version: 1.17.9
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -211,6 +211,7 @@ m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
 m.youtube.com##.mobile-topbar-header-voice-search-button
 ! download
 www.youtube.com##ytd-menu-service-item-download-renderer
+www.youtube.com##ytd-download-playlist-button-renderer
 !! video page
 ! join
 www.youtube.com###sponsor-button
