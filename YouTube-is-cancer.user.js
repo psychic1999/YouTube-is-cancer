@@ -3,7 +3,7 @@
 // @namespace   youtube
 // @match       *://*.youtube.com/*
 // @grant       none
-// @version     2.19.4
+// @version     2.19.5
 // @author      psychic1999
 // @description YouTube is cancer
 // @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
@@ -302,7 +302,7 @@ div[tab-identifier="FEsubscriptions"] ytm-item-section-renderer .video-thumbnail
 ytm-pivot-bar-item-renderer:has(>.pivot-subs,>.w2w,>.pivot-you,>.library){
     background-color: rgba(255, 0, 0, .4)!important;
 }
-ytm-pivot-bar-item-renderer:has(>.pivot-subs[aria-selected="false"],>.pivot-you[aria-selected="false"]){
+ytm-pivot-bar-item-renderer:has(>[aria-selected="false"]){
     filter: brightness(0.8);
 }
 
