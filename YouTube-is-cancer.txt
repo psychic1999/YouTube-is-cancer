@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.17.9
+! Version: 1.18.0
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -8,12 +8,6 @@
 !!! Comments
 ###comments
 ##.comment
-
-!!! crunchyroll
-!! premium promo
-www.crunchyroll.com##.premium-upsell-banner-container
-www.crunchyroll.com##.erc-premium-header-link
-www.crunchyroll.com##.upsell-banner-container
 
 !!! disqus
 ||disqus.com/embed/comments/^$all
