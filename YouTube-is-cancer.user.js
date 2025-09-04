@@ -3,7 +3,7 @@
 // @namespace   youtube
 // @match       *://*.youtube.com/*
 // @grant       none
-// @version     2.20.0
+// @version     2.21.0
 // @author      psychic1999
 // @description YouTube is cancer
 // @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
@@ -188,7 +188,7 @@ yt-including-results-for-renderer{
     display: block;
 }
 ytd-search ytd-video-renderer #video-title,
-ytd-browse[page-subtype="subscriptions"] #video-title{
+ytd-browse[page-subtype="subscriptions"] .yt-lockup-metadata-view-model__title{
     font-size: 1.4rem!important;
     line-height: 2rem!important;
     font-weight: 500!important;
@@ -198,7 +198,7 @@ ytd-search .yt-lockup-metadata-view-model-wiz__title{
     font-size: 1.6rem!important;
     line-height: 2.2rem!important;
 }
-ytd-browse[page-subtype="subscriptions"] .ytd-video-meta-block{
+ytd-browse[page-subtype="subscriptions"] .yt-content-metadata-view-model__metadata-text{
     font-size: 1.2rem!important;
     line-height: 1.8rem!important;
 }
