@@ -3,7 +3,7 @@
 // @namespace   youtube
 // @match       *://*.youtube.com/*
 // @grant       none
-// @version     2.21.0
+// @version     2.22.0
 // @author      psychic1999
 // @description YouTube is cancer
 // @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
@@ -203,7 +203,8 @@ ytd-browse[page-subtype="subscriptions"] .yt-content-metadata-view-model__metada
     line-height: 1.8rem!important;
 }
 /*////////////// SHORTSTAB //////////////*/
-yt-tab-group-shape:has(yt-tab-shape[tab-title="Shorts"]):not(:has(yt-tab-shape:nth-of-type(1)[aria-selected="true"]),:has(yt-tab-shape:nth-of-type(2)[aria-selected="true"])) .tabGroupShapeSlider{
+yt-tab-group-shape:has(yt-tab-shape[tab-title="Shorts"]):not(:has(yt-tab-shape[tab-title="Shows"]),:has(yt-tab-shape:nth-of-type(1)[aria-selected="true"]),:has(yt-tab-shape:nth-of-type(2)[aria-selected="true"])) .tabGroupShapeSlider,
+yt-tab-group-shape:has(yt-tab-shape[tab-title="Shorts"]):not(:has(yt-tab-shape:nth-of-type(1)[aria-selected="true"]),:has(yt-tab-shape:nth-of-type(2)[aria-selected="true"]),:has(yt-tab-shape:nth-of-type(3)[aria-selected="true"]),:has(yt-tab-shape:nth-of-type(4)[aria-selected="true"]),:has(yt-tab-shape:nth-of-type(5)[aria-selected="true"])) .tabGroupShapeSlider{
     position:relative!important;
     right:24px!important;
 }
