@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.18.0
+! Version: 1.19.0
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -102,22 +102,6 @@ www.metacritic.com##a[href*="/user-reviews/"]
 !!! nationalgeographic
 !! paywall
 www.nationalgeographic.com##.PaywallModal
-
-!!! nofilmschool
-nofilmschool.com##.postpage-bottomcontent,.postpage__sideCol
-
-!!! pornhub
-!! recommendations
-! desktop
-www.pornhub.com###recommendedVideosVPage
-www.pornhub.com##.relatedVideos
-! mobile
-www.pornhub.com###related
-www.pornhub.com###recommended
-www.pornhub.com##a[data-label="related_tab"]
-www.pornhub.com##a[data-label="recommended_tab"]
-!! banner
-www.pornhub.com##.emailVerHomepageContainer
 
 !!! reddit
 !! recent posts
