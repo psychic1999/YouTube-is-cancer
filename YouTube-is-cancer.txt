@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.19.0
+! Version: 1.19.1
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -232,6 +232,9 @@ www.youtube.com###teaser-carousel
 !! community tab
 www.youtube.com##ytd-comment-action-buttons-renderer
 m.youtube.com##yt-comment-action-buttons-renderer
+!! shorts
+www.youtube.com###comments-button
+m.youtube.com##.icon-shorts_comment
 
 !!! home
 !! videos
