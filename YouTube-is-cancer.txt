@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.19.1
+! Version: 1.19.2
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -29,13 +29,9 @@ github.com##ul.ActionListWrap svg.octicon-copilot:upward(li)
 github.com##.js-profile-editable-replace img.achievement-badge-sidebar:upward(div.border-top)
 
 !!! Google
-!! google search 
-! Short videos
-www.google.com##div[data-attrid="lab/cluster/content/Short videos"]
-! user reviews
+!! user reviews
 www.google.com##div[data-attrid="kc:/ugc:user_reviews"]
 www.google.com##.kp-wholepage:has([role="heading"]:has-text(Audience reviews))
-!! Google Play
 play.google.com##section:has(div[data-g-id="reviews"])
 
 !!! imdb
