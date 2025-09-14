@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.19.3
+! Version: 1.19.4
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -458,9 +458,6 @@ live.bilibili.com##.live-room-app
 m.bilibili.com##.m-home
 m.bilibili.com##.related-fit
 m.bilibili.com##.m-search-hot
-
-!!! douban
-douban.com##.subject-comments,.subject-reviews
 
 !!! douyin
 www.douyin.com##.page-recommend-container
