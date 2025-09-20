@@ -3,7 +3,7 @@
 // @namespace   youtube
 // @match       *://*.youtube.com/*
 // @grant       none
-// @version     2.22.0
+// @version     2.23.0
 // @author      psychic1999
 // @description YouTube is cancer
 // @downloadURL https://raw.githubusercontent.com/psychic1999/YouTube-is-cancer/refs/heads/main/YouTube-is-cancer.user.js
@@ -24,6 +24,7 @@ html:has(ytm-app){
     background-size:  cover!important;
 }
 /*TRANSPARENT*/
+#frosted-glass.with-chipbar.ytd-app,
 #chips-wrapper,
 #filter-chip-bar,
 .ytd-tabbed-page-header,
@@ -88,7 +89,8 @@ html:has(ytm-watch,ytm-settings,ytm-search,ytm-browse):not(:has(div[tab-identifi
     background-color: rgba(0, 0, 0, .4)!important;
     background-blend-mode:overlay!important;
 }
-ytm-feed-filter-chip-bar-renderer.frosted-glass{
+ytm-feed-filter-chip-bar-renderer.frosted-glass,
+#frosted-glass.with-chipbar.ytd-app{
     backdrop-filter: none!important;
 }
 /*LOGO*/
