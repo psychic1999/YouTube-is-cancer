@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.19.4
+! Version: 1.19.5
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -132,6 +132,8 @@ open.spotify.com##nav[data-testid="footer-div"]
 open.spotify.com##a[role="menuitem"][href*="/premium/"]
 !! comments
 open.spotify.com##[data-comment-id*="spotify"]
+!! premium promo
+open.spotify.com##div[data-testid="premium-banner"]
 
 !!! steam
 store.steampowered.com##.review_ctn
