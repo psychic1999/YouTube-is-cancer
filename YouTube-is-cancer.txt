@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.19.7
+! Version: 1.19.8
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -354,10 +354,6 @@ m.youtube.com##button[aria-label="上一个视频"],button[aria-label="下一个
 ! autoplay buttons
 www.youtube.com##.ytp-button[data-tooltip-target-id="ytp-autonav-toggle-button"]
 m.youtube.com##.ytm-autonav-toggle-button-container
-! share button
-www.youtube.com##.ytp-share-button
-! Scroll for details
-www.youtube.com##.ytp-fullerscreen-edu-button
 ! Hide the video grid shown after a video ends
 www.youtube.com##.ytp-fullscreen-grid-main-content
 ! Hide video suggestions that obscure the end of the video
