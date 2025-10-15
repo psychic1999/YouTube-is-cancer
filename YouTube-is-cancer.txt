@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.19.5
+! Version: 1.19.6
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -357,7 +357,7 @@ www.youtube.com##.ytp-share-button
 ! Scroll for details
 www.youtube.com##.ytp-fullerscreen-edu-button
 ! Hide the video grid shown after a video ends
-www.youtube.com##.videowall-endscreen
+www.youtube.com##.ytp-fullscreen-grid-main-content
 ! Hide video suggestions that obscure the end of the video
 www.youtube.com##.ytp-ce-element
 ||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
