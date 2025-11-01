@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.19.9
+! Version: 1.19.10
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -505,7 +505,7 @@ detail.tmall.com##.sn-mobile
 m.taobao.com###tcodeSideBar
 m.taobao.com##.recommend-container
 ! call app
-h5.m.taobao.com##.call-app
+m.taobao.com##.call-app
 ! home
 main.m.taobao.com##.signIn
 main.m.taobao.com##.icons3-wrapper,.uone3-wrapper
