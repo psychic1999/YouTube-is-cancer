@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.19.10
+! Version: 1.20.0
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -115,10 +115,7 @@ www.rottentomatoes.com###audience-consensus,.audience-reviews
 www.rottentomatoes.com##.review_table:has(>.audience-review-row)
 
 !!! spotify
-!! buttons
-! Explore Premium
-open.spotify.com##[data-testid="upgrade-button"]
-! Install App
+!! Install App
 open.spotify.com##a[href="/download"]
 open.spotify.com##a[href="https://spotify.com/download"]
 open.spotify.com##button[aria-label="Download"]
@@ -128,12 +125,8 @@ open.spotify.com##section[aria-label="Recently played"]
 !! footer
 open.spotify.com##.main-view-container__mh-footer-container
 open.spotify.com##nav[data-testid="footer-div"]
-!! menu
-open.spotify.com##a[role="menuitem"][href*="/premium/"]
 !! comments
 open.spotify.com##[data-comment-id*="spotify"]
-!! premium promo
-open.spotify.com##div[data-testid="premium-banner"]
 
 !!! steam
 store.steampowered.com##.review_ctn
