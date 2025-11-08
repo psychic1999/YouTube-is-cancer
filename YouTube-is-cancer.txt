@@ -1,5 +1,5 @@
 ! Title: YouTube is cancer
-! Version: 1.20.0
+! Version: 1.20.1
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -297,7 +297,7 @@ m.youtube.com##div[tab-identifier="FEsubscriptions"] ytm-item-section-renderer:h
 !! search results
 www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-www.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)
+m.youtube.com##grid-shelf-view-model:has(.shortsLockupViewModelHost)
 !! short tab
 youtube.com##yt-tab-shape[tab-title="Shorts"]
 www.youtube.com##ytd-rich-grid-renderer[is-shorts-grid]
