@@ -5,13 +5,6 @@
 
 !!!! General websites 
 
-!!! Comments
-###comments
-##.comment
-
-!!! disqus
-||disqus.com/embed/comments/^$all
-
 !!! fandom
 fandom.com##.page__right-rail
 fandom.com##.global-explore-navigation__recently-visited
