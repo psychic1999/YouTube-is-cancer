@@ -1,9 +1,7 @@
 ! Title: internet is cancer
-! Version: 1.20.2
+! Version: 2.0.0
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
-
-!!!! General websites 
 
 !!! fandom
 fandom.com##.page__right-rail
@@ -24,7 +22,6 @@ github.com##.js-profile-editable-replace img.achievement-badge-sidebar:upward(di
 !!! Google
 !! user reviews
 www.google.com##div[data-attrid="kc:/ugc:user_reviews"]
-play.google.com##section:has(div[data-g-id="reviews"])
 
 !!! imdb
 !! User reviews
@@ -39,10 +36,6 @@ imdb.com##.recently-viewed
 !! interface
 imdb.com##.imdb-header__app-button
 imdb.com##.footer__app
-
-!!! instagram
-!! Don't like on double-click
-instagram.com##+js(aeld, dblclick)
 
 !!! letterboxd
 !! Homepage
@@ -88,8 +81,11 @@ www.metacritic.com##.c-reviewsSection_carouselContainer-user
 www.metacritic.com##a[href*="/user-reviews/"]
 
 !!! nationalgeographic
-!! paywall
 www.nationalgeographic.com##.PaywallModal
+
+!!! pianyuan
+pianyuan.org##[href^="//movie.douban.com"]
+||pianyuan.org/wechat_donate.gif$image
 
 !!! reddit
 !! recent posts
@@ -107,179 +103,11 @@ www.rottentomatoes.com###audience-consensus,.audience-reviews
 !! review page
 www.rottentomatoes.com##.review_table:has(>.audience-review-row)
 
-!!! spotify
-!! Install App
-open.spotify.com##a[href="/download"]
-open.spotify.com##a[href="https://spotify.com/download"]
-open.spotify.com##button[aria-label="Download"]
-open.spotify.com##button[data-testid="friend-activity-button" ]
-!! Recently played
-open.spotify.com##section[aria-label="Recently played"]
-!! footer
-open.spotify.com##.main-view-container__mh-footer-container
-open.spotify.com##nav[data-testid="footer-div"]
-!! comments
-open.spotify.com##[data-comment-id*="spotify"]
-
 !!! steam
 store.steampowered.com##.review_ctn
 
 !!! themoviedb/tmdb
 www.themoviedb.org##.social_panel
-
-!!! tiktok
-!! desktop
-www.tiktok.com##span[data-e2e="comment-icon"]:upward(button)
-www.tiktok.com##div[data-e2e="search-comment-container"]
-www.tiktok.com##[class*=DivCommentContainer]
-!! mobile
-! comments
-www.tiktok.com##div[data-e2e="comment-icon"]
-www.tiktok.com##div[data-e2e="video-comment-button"]
-www.tiktok.com##.comment-list-container
-! Open App
-www.tiktok.com##div[data-e2e="middle-cta-container"]
-
-!!! torrentgalaxy
-torrentgalaxy.to##.panel:has(a[name="postcomment"])
-
-!!! x/twitter
-!! replies
-x.com##div[aria-label="Timeline: Conversation"] div[data-testid="cellInnerDiv"]:not(:nth-of-type(1))
-!! home
-x.com##div[aria-label="Timeline: Your Home Timeline"]
-!! explore
-x.com##div[aria-label="Timeline: Explore"]
-!! sidebar
-x.com##a[aria-label="Premium"]
-x.com##a[href="/i/premium_sign_up"]
-x.com##a[aria-label="Communities"]
-!! trending
-x.com##div[aria-label="Trending"]
-!! follow button
-x.com##button[aria-label^="Follow @"]
-!! new posts notification
-x.com##button[aria-label="New posts are available. Push the period key to go to the them."]
-
-!!!! Chinese sites
-
-!!! baidu
-!! baidu
-www.baidu.com##.tab_news
-www.baidu.com##.his-no-rec
-!! baike
-! desktop
-baike.baidu.com###J-lemma-video-list
-baike.baidu.com###J-right-tashuo
-baike.baidu.com##.z-index-fixed-content
-baike.baidu.com###J-bottom-tashuo
-baike.baidu.com##.fadeIn
-baike.baidu.com###J-related-search
-baike.baidu.com##.page-footer-content
-baike.baidu.com##.copyright
-! mobile
-baike.baidu.com##.lemma-card-bottom
-baike.baidu.com##.lemma-head-icons
-baike.baidu.com##.J-content-video-container
-baike.baidu.com##.floatTashuo-list-wrapper
-baike.baidu.com##.BK-after-content-wrapper
-baike.baidu.com###J-lemma-videos
-baike.baidu.com###J-tashuo-button-fixed
-!! tieba
-tieba.baidu.com###tiebaCustomPassLogin
-tieba.baidu.com##.topic_list_box
-tieba.baidu.com##.suggestion
-
-!!! bilibili
-!! comments
-www.bilibili.com###commentapp
-!! home
-www.bilibili.com##.recommended-container_floor-aside
-www.bilibili.com##.bili-header__channel
-bilibili.com##.left-entry,.right-entry
-bilibili.com##.bili-footer
-www.bilibili.com##.palette-button-outer
-!! search
-bilibili.com##.trending
-bilibili.com##.history
-!! recommendations
-www.bilibili.com##.rec-list
-www.bilibili.com##.next-play > .video-page-card-small
-!! player
-! in-player
-www.bilibili.com##.bpx-player-top-wrap
-www.bilibili.com##.bpx-player-ending-wrap
-www.bilibili.com##.bpx-player-toast-wrap
-! below player
-www.bilibili.com##.video-tag-container
-www.bilibili.com##.bpx-player-sending-area
-www.bilibili.com###activity_vote
-!! danmu
-www.bilibili.com###danmukuBox
-www.bilibili.com##.bpx-player-row-dm-wrap
-www.bilibili.com##.bpx-player-cmd-dm-wrap
-space.bilibili.com##.fake-danmu
-!! live
-live.bilibili.com##.live-room-app
-!! mobile
-m.bilibili.com##.m-home
-m.bilibili.com##.related-fit
-m.bilibili.com##.m-search-hot
-
-!!! douyin
-www.douyin.com##.page-recommend-container
-
-!!! pianyuan
-pianyuan.org##[href^="//movie.douban.com"]
-||pianyuan.org/wechat_donate.gif$image
-
-!!! qq
-!! docs
-docs.qq.com###downloadClientContainer
-docs.qq.com###MoreMenuDownloadApp
-docs.qq.com###navigate-app-pc-trigger
-docs.qq.com##.desktop-vip-center
-docs.qq.com##button:has(>.desktop-icon-slacking)
-!! ketang
-! desktop
-ke.qq.com###video-container > div
-ke.qq.com##.copyright-marquee-tips-container
-ke.qq.com##.mobile-watch
-ke.qq.com##.im-popconfirm
-ke.qq.com##.video-download-tips
-! mobile
-m.ke.qq.com##.download-btns
-m.ke.qq.com##.app-guide
-m.ke.qq.com##.download-wording
-
-!!! sspai
-sspai.com##.related-read-box
-sspai.com###btn-call-app
-
-!!! taobao/tmall
-!! desktop
-! general
-taobao.com###J_SiteFooter
-! home
-www.taobao.com##.search-hots
-www.taobao.com##.user-externalLink
-www.taobao.com##.tbh-hotsale
-! search page
-s.taobao.com##.ad:upward(.container)
-! tmall
-detail.tmall.com###footer1
-detail.tmall.com##.sn-mobile
-!! mobile
-! general
-m.taobao.com###tcodeSideBar
-m.taobao.com##.recommend-container
-! call app
-m.taobao.com##.call-app
-! home
-main.m.taobao.com##.signIn
-main.m.taobao.com##.icons3-wrapper,.uone3-wrapper
-! tmall
-m.tmall.com###tcodeSideBar
 
 !!! xunlei
 pan.xunlei.com##.client-download
@@ -287,9 +115,3 @@ pan.xunlei.com##.openMobileXunlei
 pan.xunlei.com##.aside-bottom__act-bar
 pan.xunlei.com##.viewer-app-tip
 lixian.xunlei.com##.files
-
-!!! zhihu
-!! hotsearch
-www.zhihu.com##.SearchBar-topSearchItem
-www.zhihu.com##.MobileHotSearch-container
-
