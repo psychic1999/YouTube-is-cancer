@@ -1,5 +1,5 @@
 ! Title: internet is cancer
-! Version: 2.0.1
+! Version: 2.1.0
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -80,9 +80,6 @@ letterboxd.com###favourites:has([href="/settings/"])
 www.metacritic.com##.c-reviewsSection_carouselContainer-user
 www.metacritic.com##a[href*="/user-reviews/"]
 
-!!! nationalgeographic
-www.nationalgeographic.com##.PaywallModal
-
 !!! pianyuan
 pianyuan.org##[href^="//movie.douban.com"]
 ||pianyuan.org/wechat_donate.gif$image
@@ -102,9 +99,6 @@ www.reddit.com###reddit-trending-searches-partial-container
 www.rottentomatoes.com###audience-consensus,.audience-reviews
 !! review page
 www.rottentomatoes.com##.review_table:has(>.audience-review-row)
-
-!!! steam
-store.steampowered.com##.review_ctn
 
 !!! taobao
 m.taobao.com###tcodeSideBar
