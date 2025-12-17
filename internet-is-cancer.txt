@@ -1,23 +1,11 @@
 ! Title: internet is cancer
-! Version: 2.1.0
+! Version: 2.2.0
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
 !!! fandom
 fandom.com##.page__right-rail
 fandom.com##.global-explore-navigation__recently-visited
-
-!!! github
-!! Hide the changelog and announcements from the homepage
-github.com##aside .dashboard-changelog.mb-4
-github.com##.js-notice
-!! Hide the explore section from the homepage
-github.com##aside.feed-right-sidebar[aria-label="Explore"]
-!! Hide copilot upsells and settings
-github.com##react-app[app-name="react-code-view"] button[data-testid="copilot-popover-button"]
-github.com##ul.ActionListWrap svg.octicon-copilot:upward(li)
-!! Hide the achievements from user profiles
-github.com##.js-profile-editable-replace img.achievement-badge-sidebar:upward(div.border-top)
 
 !!! Google
 !! user reviews
