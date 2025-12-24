@@ -83,10 +83,8 @@ www.reddit.com##reddit-pdp-right-rail-post
 www.reddit.com###reddit-trending-searches-partial-container
 
 !!! rottentomatoes
-!! movie page
-www.rottentomatoes.com###audience-consensus,.audience-reviews
-!! review page
-www.rottentomatoes.com##.review_table:has(>.audience-review-row)
+www.rottentomatoes.com###audience-consensus
+www.rottentomatoes.com##.audience-reviews
 
 !!! taobao
 m.taobao.com###tcodeSideBar
