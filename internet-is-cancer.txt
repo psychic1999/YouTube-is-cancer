@@ -91,10 +91,3 @@ m.taobao.com###tcodeSideBar
 
 !!! themoviedb/tmdb
 www.themoviedb.org##.social_panel
-
-!!! xunlei
-pan.xunlei.com##.client-download
-pan.xunlei.com##.openMobileXunlei
-pan.xunlei.com##.aside-bottom__act-bar
-pan.xunlei.com##.viewer-app-tip
-lixian.xunlei.com##.files
