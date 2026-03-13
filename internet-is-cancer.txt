@@ -1,5 +1,5 @@
 ! Title: internet is cancer
-! Version: 2.2.0
+! Version: 2.2.1
 ! Expires: 1 day
 ! Homepage: https://github.com/psychic1999/YouTube-is-cancer
 
@@ -63,6 +63,8 @@ letterboxd.com###recently-liked-lists
 letterboxd.com##.main-nav-people
 !! profile
 letterboxd.com###favourites:has([href="/settings/"])
+!! comments
+letterboxd.com###comments
 
 !!! metacritic
 www.metacritic.com##.c-reviewsSection_carouselContainer-user
